@@ -1,0 +1,1 @@
+export default function FilterTabs({value,onChange}){return <div className="tabs">{["All","Active","Completed"].map(x=><button key={x} onClick={()=>onChange(x)} className={value===x?"chosen":""}>{x}</button>)}</div>}

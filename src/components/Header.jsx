@@ -1,0 +1,1 @@
+export default function Header(){return <header className="header"><a href="#" className="brand">day<span>mark.</span></a><div className="avatar">SB</div></header>}

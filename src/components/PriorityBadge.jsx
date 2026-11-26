@@ -1,0 +1,1 @@
+export default function PriorityBadge({level}){return <span className={`priority ${level.toLowerCase()}`}>{level}</span>}

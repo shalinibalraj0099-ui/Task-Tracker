@@ -1,0 +1,1 @@
+export default function SummaryCard({value,label,icon}){return <article className="summary-card"><span>{icon}</span><div><strong>{value}</strong><small>{label}</small></div></article>}
